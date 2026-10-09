@@ -10,3 +10,4 @@
 ^.codegraph
 ^.claude
 ^checks$
+^\.github$

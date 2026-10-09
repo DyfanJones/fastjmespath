@@ -1,8 +1,10 @@
-people <- list(people = list(
-  list(name = "a", age = 20L),
-  list(name = "b", age = 30L),
-  list(name = "c", age = 40L)
-))
+people <- list(
+  people = list(
+    list(name = "a", age = 20L),
+    list(name = "b", age = 30L),
+    list(name = "c", age = 40L)
+  )
+)
 
 test_that("basic queries work", {
   expect_equal(jmespath_search(people, "people[0].name"), "a")
@@ -69,6 +71,9 @@ test_that("bad expressions error", {
 test_that("errors have classes", {
   expect_error(jmespath_compile("a["), class = "jmespath_syntax_error")
   expect_error(jmespath_search_json("{bad", "a"), class = "jmespath_json_error")
-  expect_error(jmespath_search(list(a = "x"), "abs(a)"), class = "jmespath_search_error")
+  expect_error(
+    jmespath_search(list(a = "x"), "abs(a)"),
+    class = "jmespath_search_error"
+  )
   expect_error(jmespath_search(list(a = sum), "a"), class = "jmespath_error")
 })

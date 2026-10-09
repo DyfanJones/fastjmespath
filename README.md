@@ -1,3 +1,8 @@
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/DyfanJones/fastjmespath/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/DyfanJones/fastjmespath/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/DyfanJones/fastjmespath/graph/badge.svg)](https://app.codecov.io/gh/DyfanJones/fastjmespath)
+<!-- badges: end -->
+
 # fastjmespath
 
 Fast [JMESPath](https://jmespath.org) queries for R objects and JSON strings.
