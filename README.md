@@ -2,6 +2,7 @@
 [![R-CMD-check](https://github.com/DyfanJones/fastjmespath/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/DyfanJones/fastjmespath/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/DyfanJones/fastjmespath/graph/badge.svg)](https://app.codecov.io/gh/DyfanJones/fastjmespath)
 [![CRAN status](https://www.r-pkg.org/badges/version/fastjmespath)](https://CRAN.R-project.org/package=fastjmespath)
+[![R-universe version](https://DyfanJones.r-universe.dev/fastjmespath/badges/version)](https://DyfanJones.r-universe.dev/fastjmespath)
 <!-- badges: end -->
 
 # fastjmespath
