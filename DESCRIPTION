@@ -1,0 +1,20 @@
+Package: fastjmespath
+Title: Fast 'JMESPath' Queries for R Objects and JSON
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: Evaluate 'JMESPath' expressions against R lists, data frames and
+    JSON strings. Built on the Rust 'jmespath' crate through 'extendr', with
+    compiled expressions that can be reused across queries.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/rextendr/version: 0.5.0
+SystemRequirements: Cargo (Rust's package manager), rustc >= 1.65.0, xz
+Suggests:
+    jsonlite,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 4.2)

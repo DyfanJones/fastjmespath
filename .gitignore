@@ -1,0 +1,13 @@
+.Rproj.user
+src/rust/vendor
+src/Makevars
+src/Makevars.win
+checks/
+src/rust/target
+src/*.o
+src/*.so
+src/*.dll
+.codegraph
+.claude
+.Rhistory
+.DS_Store
