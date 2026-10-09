@@ -13,3 +13,4 @@
 ^\.github$
 ^CODE_OF_CONDUCT\.md$
 ^air.toml
+^codecov\.yml$
