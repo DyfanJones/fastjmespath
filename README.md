@@ -21,7 +21,7 @@ Building from source needs a Rust toolchain (Cargo and `rustc >= 1.65.0`) and
 
 ```r
 # install.packages("pak")
-pak::pak("<user>/fastjmespath")
+pak::pak("dyfanjones/fastjmespath")
 ```
 
 ## Usage
